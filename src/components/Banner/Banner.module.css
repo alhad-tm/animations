@@ -1,0 +1,36 @@
+.container{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../../assets/car-console.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    
+}
+.div1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0% 6%;
+}
+.left{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.left>img{
+    height: 100px;
+}
+.right{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.right>span{
+    color: #fff;
+    font-size: 16px;
+}
