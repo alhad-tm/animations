@@ -17,6 +17,7 @@ function App() {
     <div className="App">
       <motion.div   className="progress-bar" style={{ scaleX: scrollYProgress }}>  
       <img src={Car} alt=''/>
+      
       </motion.div>
       <Banner/>
       <Navbar/> 

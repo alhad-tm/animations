@@ -40,6 +40,7 @@ const Cards = () => {
         pagination={{clickable:true}}
         loop={true}
         slidesPerView={1}
+        speed={2500}
        
         modules={[EffectFlip, Pagination]}
         //  modules={[EffectCards,Pagination]}

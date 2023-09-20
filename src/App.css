@@ -43,10 +43,10 @@
   bottom: 0;
   left: 0;
   right: 0;
-  /* height: 200px; */
+  height: 8px;
   /* width: 20px; */
-  /* background: rgb(231, 15, 15); */
-  background: transparent;
+  background: rgb(231, 15, 15);
+  /* background: transparent; */
   transform-origin: 0%;
   z-index: 6;
   border-radius: 20px;
@@ -56,13 +56,13 @@
   /* background-image: url(./assets/car-console.jpg);
   background-size: contain; */
 }
-.progress-bar>img{
+/* .progress-bar>img{
   position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
 
-}
+} */
 
 .swiper-container {
   box-shadow: none !important; /* or box-shadow: 0; */
@@ -70,4 +70,21 @@
 
 .swiper-slide {
   box-shadow: none !important; /* Use !important if necessary */
+}
+.swiper {
+  width: 300px;
+  height: 300px;
+  padding: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
 }

@@ -33,19 +33,34 @@
     width: 200px;
     /* background-color: aqua; */
     color: blue;
-    box-shadow: none;
+    box-shadow: none !important;
+}
+.box1>img{
+    box-shadow: none !important;
+    height: 300px;
+    width: 200px;
+}
+.box2>img{
+    box-shadow: none !important;
+    height: 300px;
+    width: 200px;
+}
+.box3>img{
+    box-shadow: none !important;
+    height: 300px;
+    width: 200px;
 }
 .box2{
     height: 300px;
     width: 200px;
     /* background-color: rgb(119, 179, 29); */
     color: blue;
-    box-shadow: none;
+    box-shadow: none !important;
 }
 .box3{
     height: 300px;
     width: 200px;
     /* background-color: rgb(56, 15, 87); */
     color: blue;
-    box-shadow: 0;
+    box-shadow: 0 !important;
 }
