@@ -1,0 +1,19 @@
+
+.scrollablecontainer {
+    height: 300px; /* Adjust the height as needed */
+    overflow-y: scroll;
+  }
+  
+
+
+.progressbar {
+    width: 104px; /* Adjust the width of the progress bar */
+    background-color: blue; /* Color of the progress bar */
+    position: fixed;
+    right: 0;
+    top: 0;
+    height: 0;
+    transition: height 0.2s ease-in-out; /* Animation duration and easing */
+    z-index: 4;
+  }
+  
