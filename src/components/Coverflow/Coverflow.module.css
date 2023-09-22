@@ -7,7 +7,7 @@
     width: 100%;
 }
 .swiperdiv{
-    width:500px;
+    width:400px;
     height: 400px;
     display: flex;
     align-items: center;
@@ -19,6 +19,7 @@
     width: 300px;
 }
 .img{
-   height: auto;
+   height: 200px;
    width: 80%;
+   
 }

@@ -28,12 +28,20 @@ const Testimonials = () => {
           -{testimonialsData[selected].status}
         </span> 
       </div>
-      <div className="right-t">
+      <div className="right-t"
+        initial={{ opacity: 0, y:130 }} 
+        whileInView={{ opacity: 1, y:0 }}
+         transition={{ duration: 3.5 }}
+      >
         <div></div>
 
-        <img src={testimonialsData[selected].image} alt="" />
+        <img  className="imgimg"
+          initial={{ opacity: 0, scale:0.5 }} 
+          whileInView={{ opacity: 1, scale:1 }}
+           transition={{ duration: 3.5 }}
+        src={testimonialsData[selected].image} alt="" />
         <div className="arrows">
-          <img
+          <img 
             onClick={() => {
               selected === 0
                 ? setSelected(tLength - 1)
@@ -46,7 +54,7 @@ const Testimonials = () => {
           <img
             onClick={() => {
               selected === tLength - 1
-                ? setSelected(0)
+                ? setSelected(0) 
                 : setSelected((val) => val + 1);
             }}
             src={rightArrow}
@@ -54,6 +62,7 @@ const Testimonials = () => {
           />
         </div>
       </div>
+
     </div>
   );
 };

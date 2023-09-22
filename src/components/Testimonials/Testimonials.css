@@ -38,8 +38,8 @@
     position: relative;
     /* transform-style: preserve-3d;
     transition: transform 2.5s; */
-    transition: opacity 1s ease-in-out;
-    animation: rotateImage 1s ease-in-out;
+    /* transition: opacity 1s ease-in-out;
+    animation: rotateImage 1s ease-in-out; */
   }
   .right-t > img {
     position: absolute;
@@ -48,7 +48,17 @@
     object-fit: cover;
     right: 8rem;
     top: 2rem;
+    transform: scale(0.8);
+    transition: all 3s ease-in-out ;
+    transition-duration: 5000ms;
+   
     
+  }
+  .imgimg{
+    transform: scale(0.8);
+    transition: all 3s ease-in-out ;
+    transition-duration: 5000ms;
+   
   }
 
   @keyframes rotateImage {

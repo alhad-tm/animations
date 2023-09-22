@@ -12,6 +12,7 @@ import CardRotation from './components/CardRotation/CardRotation';
 import ImageSlider from './components/ImageSlider/ImageSlider';
 import Testimonials from './components/Testimonials/Testimonials';
 import Coverflow from './components/Coverflow/Coverflow';
+import Shift from './components/Shift/Shift';
 // import ThreeDScene from './components/ThreeDScene/ThreeDScene'; 
 
 // import ModelViewer from './components/ModelViewer'; 
@@ -37,6 +38,8 @@ function App() {
   <ImageSlider/>
   <Testimonials/>
   <Coverflow/>
+
+  <Shift/>
     </div>
   );
 }

@@ -24,14 +24,14 @@ const Coverflow = () => {
         pagination={{clickable:true}}
         modules={[EffectCoverflow, Pagination]}
 		slidesPerView={1}
-        spaceBetween={600}
+        spaceBetween={40}
 		coverflowEffect={{
-			rotate: 360,
-			stretch: 80,
-			depth: 200,
+			rotate: -360,
+			// stretch: 80,
+			// depth: 200,
 			modifier: 1, // 2,3
 			slideShadows : false,}}
-            speed={500}
+            speed={2500}
 
             > 
                 <SwiperSlide>

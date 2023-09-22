@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: slategray;
+}
+.div1{
+    display: flex;
+    gap: 4rem;
+    color: rgb(24, 2, 2);
+}
+.div2{
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    background-color: chocolate;
+    color: aliceblue;
+    height: 300px;
+    width: 500px;
+}
+.right{
+    background-color: chartreuse;
+    color: aliceblue;
+    height: 300px;
+    width: 500px;
+}
