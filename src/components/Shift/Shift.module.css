@@ -7,6 +7,7 @@
     justify-content: center;
     background-color: slategray;
     padding: 10% 10%;
+    gap: 2rem;
 }
 .div1{
     display: flex;
@@ -18,16 +19,18 @@
     justify-content: space-between;
 }
 .left{
-    background-color: chocolate;
+    background-color: rgb(237, 118, 54);
     color: aliceblue;
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
 }
 .right{
-    background-color: chartreuse;
+    background-color: rgb(45, 47, 44);
     color: aliceblue;
-    height: 300px;
-    width: 500px;
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
 }
 .div4{
     width: 80%;
