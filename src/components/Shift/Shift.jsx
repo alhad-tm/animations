@@ -2,9 +2,10 @@ import React from 'react'
 import css from "./Shift.module.css"
 import { useState } from 'react'
 import { motion } from 'framer-motion'
+import VideoB from "../../assets/Endvideo.mp4"
 
 const Shift = () => {
-    const [state,setState]= useState(0)
+    const [state,setState]= useState(1)
   return (
     <div className={css.container}>
         <div className={css.div1}>
@@ -32,9 +33,14 @@ const Shift = () => {
 
             </motion.div> }
         </div>
+
+        <div className={css.div4}>
+       <video className={css.videoclass} src={VideoB} autoPlay loop muted></video>
+        </div>
       
     </div>
   )
 }
 
 export default Shift
+ 
