@@ -1,0 +1,24 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rosybrown;
+    height: 100vh;
+    width: 100%;
+}
+.swiperdiv{
+    width:500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   box-shadow: none;
+}
+.box{
+    height: 200px;
+    width: 300px;
+}
+.img{
+   height: auto;
+   width: 80%;
+}

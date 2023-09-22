@@ -2,14 +2,18 @@ import React, { useState } from "react";
 import "./ImageSlider.css";
 
 const images = [
-  "cars1.png",
-  "cars2.png",
-  "cars3.png",
+  "card1.png",
+  "card2.png",
+//   "card1.png",
   // Add more image file names as needed
 ];
+const text=[
+    "hello car 1", "hello car 2", "hello car 3"
+]
 
 const ImageSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentInd, setCurrentInd] = useState("hi");
   const [isRotated, setIsRotated] = useState(false);
 
   const handleNextClick = () => {
@@ -21,6 +25,7 @@ const ImageSlider = () => {
   };
 
   return (
+    <div className="container">
     <div className={`slider ${isRotated ? "rotated" : ""}`}>
       <div className="slider-inner">
         <img
@@ -31,6 +36,9 @@ const ImageSlider = () => {
           <button onClick={handleNextClick}>Next</button>
         </div>
       </div> 
+
+      <h1>{text.currentInd}</h1>
+    </div>
     </div>
   ); 
 };
