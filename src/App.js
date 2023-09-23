@@ -14,6 +14,8 @@ import Testimonials from './components/Testimonials/Testimonials';
 import Coverflow from './components/Coverflow/Coverflow';
 import Shift from './components/Shift/Shift';
 import CountdownTimer from './components/CountdownTimer/CountdownTimer';
+import UserProgressBar from './components/UserProgressBar/UserProgressBar';
+import UserScrollableProgressBar from './components/UserScrollableProgressBar/UserScrollableProgressBar';
 // import ThreeDScene from './components/ThreeDScene/ThreeDScene'; 
 
 // import ModelViewer from './components/ModelViewer'; 
@@ -42,6 +44,8 @@ function App() {
 
   <Shift/>
   <CountdownTimer/>
+  <UserProgressBar/>
+  <UserScrollableProgressBar/>
     </div>
   );
 }
