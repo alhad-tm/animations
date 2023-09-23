@@ -6,13 +6,14 @@ import Cards from './components/Cards/Cards';
 import Navbar from './components/Navbar/Navbar';
 import Banner from './components/Banner/Banner'; 
 import { motion, useScroll } from 'framer-motion' 
-import Car from "./assets/logo.svg"
+import Car from "./assets/Tesla.png"
 import ScrollableComponent from './components/ScrollableComponent/ScrollableComponent';
 import CardRotation from './components/CardRotation/CardRotation';
 import ImageSlider from './components/ImageSlider/ImageSlider';
 import Testimonials from './components/Testimonials/Testimonials';
 import Coverflow from './components/Coverflow/Coverflow';
 import Shift from './components/Shift/Shift';
+import CountdownTimer from './components/CountdownTimer/CountdownTimer';
 // import ThreeDScene from './components/ThreeDScene/ThreeDScene'; 
 
 // import ModelViewer from './components/ModelViewer'; 
@@ -23,7 +24,7 @@ function App() {
   return ( 
     <div className="App">
       <motion.div   className="progress-bar" style={{ scaleX: scrollYProgress }}>  
-      
+      <img src={Car}></img>
       </motion.div>
       <Banner/>
       <Navbar/> 
@@ -40,6 +41,7 @@ function App() {
   <Coverflow/>
 
   <Shift/>
+  <CountdownTimer/>
     </div>
   );
 }
