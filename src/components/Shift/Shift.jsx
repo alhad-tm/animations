@@ -17,8 +17,8 @@ const Shift = () => {
 
         <div className={css.div2}>
         {state===1 &&   <motion.div 
-         initial={{ opacity: 1,rotate:360}} 
-         whileInView={{ opacity: 1, rotate:0}}
+         initial={{ opacity: 1,rotateY:360}} 
+         whileInView={{ opacity: 1, rotateY:0}}
           transition={{ duration: 1.5 }}
 
           // initial= {{ rotateY: 180 }},
@@ -33,8 +33,8 @@ const Shift = () => {
 
 
        {state===2 &&   <motion.div className={css.right}
-        initial={{ opacity: 0, rotate:360}} 
-        whileInView={{ opacity: 1, rotate:0}}
+        initial={{ opacity: 0, rotateY:360}} 
+        whileInView={{ opacity: 1, rotateY:0}}
          transition={{ duration: 1.5 , }}>
             {/* <p>hello, i am the right side</p> */}
             <img src={Card2} alt="" />

@@ -29,9 +29,15 @@
   }
   .timer{
     font-size: 40px;
-    color: #333;
+    color: #efebeb;
   }
   .timer-label{
     font-size: 14px;
-    color: #333;
+    color: #ebdfdf;
+  }
+  .dotspan{
+    font-size: 44px;
+    color: #efebeb;
+    margin-bottom: 1rem;
+    border-radius: 50%;
   }

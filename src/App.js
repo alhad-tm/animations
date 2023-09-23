@@ -16,6 +16,7 @@ import Shift from './components/Shift/Shift';
 import CountdownTimer from './components/CountdownTimer/CountdownTimer';
 import UserProgressBar from './components/UserProgressBar/UserProgressBar';
 import UserScrollableProgressBar from './components/UserScrollableProgressBar/UserScrollableProgressBar';
+import VerticalProgressBar from './components/VerticalProgressBar/VerticalProgressBar';
 // import ThreeDScene from './components/ThreeDScene/ThreeDScene'; 
 
 // import ModelViewer from './components/ModelViewer'; 
@@ -46,6 +47,7 @@ function App() {
   <CountdownTimer/>
   <UserProgressBar/>
   <UserScrollableProgressBar/>
+  <VerticalProgressBar/>
     </div>
   );
 }

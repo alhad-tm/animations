@@ -40,6 +40,7 @@ function CountdownTimer() {
         <span className="timer">{days}</span>
         <span className="timer-label">Days</span>
       </div>
+      <span className="dotspan">:</span>
       <div className="timer-box">
         <span className="timer">{hours}</span>
         <span className="timer-label">Hours</span>
